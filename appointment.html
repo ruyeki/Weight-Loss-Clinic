@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title> Book an Appointment  </title>
+    <link rel = "stylesheet" href = "appointment.css">
+    <script src = "appointment-script.js"></script>
+</head>
+<body>
+    <section>
+    <a href = "index.html"><img src="logo.jpg" class = "menu-img"></a>
+
+    <div class = "wrapper">
+            <h2>Find out if we're right for you. </h2>
+            <h3>Do any of these conditions apply to you?</h3>
+            <h4>Select all that apply.</h4>
+            <form id = "checkBoxForm" onsubmit="validate(event)" action = "appointment.php" method = "post ">
+                <div class="appointment-form">
+
+                    <label class="checkbox">
+                        <input type="checkbox" id = "option1">
+                        Currently pregnant or planning to become pregnant
+                    </label>
+
+                    <label class="checkbox">
+                        <input type="checkbox" id = "option2">
+                        History of thyroid cancer
+                    </label>
+
+                    <label class="checkbox">
+                        <input type="checkbox" id = "option3" >
+                        MEN (Multiple endocrine neoplasia) syndrome
+                    </label>
+
+                    <label class="checkbox">
+                        <input type="checkbox" id = "option4">
+                        Substance abuse
+                    </label>
+
+                    <label class="checkbox">
+                        <input type="checkbox" id = "option5">
+                        Type 1 diabetes
+                    </label>
+
+                    <label class="checkbox">
+                        <input type="checkbox" id = "option6">
+                        None of the above
+                    </label>
+
+                </div>
+
+                <button type="submit" class = "continue-btn"> Continue </button>
+
+
+            </form>
+        
+    </div>
+    </section>
+
+
+</body>
+
+</html>

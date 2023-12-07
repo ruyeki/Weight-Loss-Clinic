@@ -1,0 +1,199 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    background: #7689de;
+    min-height: 100vh; 
+    width: 100%;
+    position: relative;
+    font-family: tiempos-semibold, serif;
+    clip-path: ellipse(100% 60% at 50% 30%);
+    height: 100vh; 
+}
+
+.menu-img{
+    width: 60px;
+    height: 30px;
+    margin: 20px; 
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.wrapper{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 500px;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+}
+
+.wrapper2{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 450px;
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    
+}
+
+.wrapper2 h3{
+    display: flex;
+    font-family: arial, serif;
+    font-size: 25px;
+    text-align: center;
+
+
+}
+
+.wrapper2 p{
+    font-family: avenir-light, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    font-family: avenir-light, Helvetica, sans-serif;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    font-family: avenir-light, Helvetica, sans-serif;
+}
+
+h4{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    margin-top: 2px;
+    font-family: avenir-light, Helvetica, sans-serif;
+}
+
+.continue-btn{ /*login button*/
+    text-align: center;
+    color: #7689de;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    border:0;
+    outline:0;
+    cursor:pointer;
+    text-decoration: none;
+    background: white;
+    padding: 14px 15px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    border-radius: 30px;
+    transition: 0.5s;
+
+}
+
+.continue-btn:hover{
+    background: #7689de;
+    color: white;
+}
+
+
+
+
+.wrapper .form-box{
+    width: 100%;
+    padding: 40px;
+
+}
+
+.input-box{
+    display: block;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: black;
+    font-weight: 500;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+
+.radio-group label{
+    display: block;
+    margin-bottom: 10px;
+    color:black;
+    cursor: pointer;
+    text-align: left;
+}
+
+.checkbox{
+    display:block;
+    margin-bottom: 20px;
+    font-family: avenir-light, Helvetica, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.continue-btn2{ /*login button*/
+    text-align: center;
+    color: #7689de;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 20px;
+    height: 50px;
+    width: 650px;
+    border-radius: 20px;
+    border:0;
+    outline:0;
+    cursor:pointer;
+    text-decoration: none;
+    background: white;
+    padding: 14px 15px;
+    text-align: center; 
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 440px;
+    border-radius: 30px;
+    transition: 0.5s;
+
+}
+
+.continue-btn2:hover{
+    background: #7689de;
+    color: white;
+}

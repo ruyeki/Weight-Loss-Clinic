@@ -1,0 +1,300 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #7689de;
+    height: 100vh;
+}
+
+.wrapper {
+    min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+    width: 100%;
+    color: black;
+    position: relative;
+    font-family: arial, serif;
+    background: white;
+    clip-path: ellipse(100% 60% at 50% 30%);
+
+}
+
+nav{ /* for the nav bar */
+    display:flex;
+    align-item: center;
+    paddding: 20px 8%;
+    background-color: white;
+    height: 85px;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 100; 
+}
+
+nav .menu-img {
+    width: 60px;
+    height: 30px;
+    margin: 20px; /* Adjust the margin as needed */
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+nav ul{
+    flex:1;
+    text-align: center;
+
+}
+
+nav ul li{
+    display: inline-block;
+    font-family: avenir-light, Helvetica, sans-serif;
+    list-style: none;
+    margin: 0 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+.simple-text-style{
+    color: #7689de;
+    font-weight: 0px;
+}
+
+button{ /*login button*/
+
+    color:white;
+    font-family: avenir-light, Helvetica, sans-serif;
+    font-weight: 700;
+    height: 50px;
+    width: 95px;
+    border-radius: 20px;
+    border:0;
+    outline:0;
+    cursor:pointer;
+    text-decoration: none;
+    background: #7689de;
+    padding: 14px 15px;
+    text-align: center; 
+    display: inline-block;
+    margin-top: 5px;
+    border-radius: 30px;
+    transition: 0.5s;
+
+}
+
+.login-btn:hover{
+    background: white;
+    color: black;
+}
+
+.text-container1{
+    opacity:0;
+    animation: ani2 0.75s ease-out forwards;
+}
+
+@keyframes ani2 {
+    100%{
+        opacity: 1;
+    }
+    
+}
+
+.text-container1 button{ /*schedule appt button*/
+    font-family: avenir-light, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+    background: #7689de;
+    padding: 14px 40px;
+    text-align: center; 
+    justify-content: left;
+    align-items: left;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 30px;
+    margin-left: 560px;
+    transition: 0.5s;
+
+}
+
+.appointment-btn:hover{
+    background: white;
+    color: black;
+}
+
+.text-container1{
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    height: 100vh; /* This will make the container take up the full viewport height */
+
+
+}
+
+.text-container1 p{
+    margin-left: 50px;
+    font-family: avenir-light, Helvetica, sans-serif;
+
+}
+
+.text-container1 h1{
+    font-size: 52px;
+    font-style: normal;
+    letter-spacing: 0px;
+    line-height: 58px;
+    text-transform: none;
+    font-weight: 450;
+    text-align: center;
+    color:black;
+    margin-bottom: 5px;
+}
+
+.text-container1 h3{
+    text-align:center;
+    font-weight: normal;
+}
+
+.steps{
+    font-family: avenir-light, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: 0px;
+    line-height: 38px;
+    text-transform: none;
+    color: black;
+    width: 30px; /* Adjust the width to your preference */
+    text-align: left;
+    margin-right: 10px; /* Add some spacing between the step number and content */
+}
+
+.content{
+    font-family: avenir-light, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    color: #001837;
+    text-align: left;
+    flex-grow:1;
+}
+
+.text-container2{
+    color: white;
+    background: #7689de;
+}
+
+.ozempic-101{
+    min-height: 100vh;
+    width: 100%;
+    color: #7689de;
+    position: relative;
+    font-family: tiempos-semibold, serif;
+    background-color: white;
+}
+
+.ozempic-101 h1{
+    margin-left: 100px;
+    margin-top: 100px;
+    font-family: arial;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+
+.ozempic-101 p{
+    margin-left:100px;
+    margin-top: 25px;
+    color: black;
+    font-family: avenir-light, Helvetica, sans-serif;
+}
+
+.ozempic-101 span{
+  position: absolute;
+  right: 0;
+  top: 25%;
+  margin-top: -20px;
+}
+
+.appointment-btn{
+    font-family: avenir-light, Helvetica, sans-serif;
+    font-weight: 700;
+    color: white;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    text-decoration: none;
+    background: #7689de;
+    padding: 14px 40px;
+    text-align: center; 
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 30px;
+    margin-left: 250px;
+    margin-bottom: 10px;
+    transition: 0.5s;
+}
+.hidden{
+    filter: blur(3px);
+    transform: translateX(-100%);
+    transition: 1.5s;
+}
+
+@media(prefers-reduced-motion){
+    .hidden{
+        transition:none;
+    }
+}
+
+.show{
+    opacity:1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+@media(prefers-reduced-motion){
+    .show{
+        transition:none;
+    }
+}
+
+.ozempic-101{
+    background-color: #7689de;
+    color: white;
+}
+
+.ozempic-101 h1{
+    color:black;
+}
+.ozempic-101 p{
+    color:black;
+}
+
+
+.appointment-btn{
+    background-color: white;
+    color: #7689de;
+}
+
+.appointment-btn:hover{
+    background-color: #7689de;
+    color: white;
+}
