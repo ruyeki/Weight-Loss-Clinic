@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Contact Page</title>
+        <meta charset = "UTF-8">
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <div class = "contact-page">
+            <nav>
+                <a href = "index.html"><img src="logo.jpg" class = "menu-img"></a>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="appointment.html">Schedule an appointment</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class = "login-btn" type = "button" onclick="gotoLogin(this)" value = "login.html">Sign In</button>
+                
+
+            </nav>
+            <h1>Contact</h1>
+            <form action = "contact.php" method="post">
+                <label for="name">Name</label>
+                <input type = "text" id = "name" name="name">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button>Submit</button>
+
+            </form>
+
+
+        </div> 
+
+    <body>
+
+    </body>
+</html>
