@@ -1,4 +1,5 @@
-# Weight-Loss-Clinic
-The idea for this weight loss clinic is to give people a place to go to get themselves prescribed with Ozempic from a licensed physician. If approved, the end goal is to have a nurse go to the patients homes to administer the drug themselves. 
+# Virtual Medical Clinic
 
-Currently working on the backend for the contact, login, and appointment setting pages. 
+The idea is to give patients a place to go for healthcare solutions without the hassle of physical appointments and long wait times.
+The virtual clinic was created with HTML/CSS/JS, Bootstrap for the front-end, and currently working on creating the back-end with PHP and MySQL 
+
