@@ -26,7 +26,7 @@ html, body {
 .wrapper{
     text-align: center;
     margin-top: 100px;
-    margin-left: 500px;
+    margin-left: 450px;
     color: black;
     font-size: 20px;
     text-align: left;
@@ -94,7 +94,7 @@ h4{
     background: white;
     padding: 14px 15px;
     display: inline-block;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-right: 5px;
     margin-bottom: 20px;
     margin-left: 100px;
@@ -196,4 +196,21 @@ h4{
 .continue-btn2:hover{
     background: #7689de;
     color: white;
+}
+
+/* For appointment3, calendar section of app */
+
+/* smartphones */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){
+    body{
+        padding:0;
+        margin:0;
+    }
+}
+
+/*ipad*/
+@media only screen and (min-device-width: 802px) and (max-device-width: 1020px){
+    body{
+        width: 495px;
+    }
 }
