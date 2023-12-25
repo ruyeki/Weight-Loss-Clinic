@@ -32,6 +32,12 @@ html, body {
     text-align: left;
 }
 
+.wrapper p{
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+}
+
 .wrapper2{
     text-align: center;
     margin-top: 100px;
@@ -52,7 +58,7 @@ html, body {
 }
 
 .wrapper2 p{
-    font-family: avenir-light, Helvetica, sans-serif;
+    font-family: arial, avenir-light, Helvetica, sans-serif;
     font-size: 20px;
 }
 
