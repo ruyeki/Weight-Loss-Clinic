@@ -1,2 +1,2 @@
 # Virtual Medical Clinic
-first attempt at a fullstack web app
+first attempt at creating a web app
