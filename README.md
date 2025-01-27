@@ -1,2 +1,2 @@
 # virtual clinic
-an attempt at creating a web app
+my first attempt at a full stack web app :) 
